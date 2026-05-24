@@ -1,0 +1,18 @@
+def isTPrime(n):
+    cont = 0
+    root_n = int(n ** 0.5)
+    for i in range(2, n):
+        if n % i == 0:
+            cont += 1
+    
+    return cont == 1 and root_n * root_n == n
+
+cant_num = int(input())
+numeros = list(map(int, input().split()))
+# print(numeros)
+for num in range(cant_num):
+    T = isTPrime(numeros[num])
+    if T:
+        print("YES")
+    else:
+        print("NO")
