@@ -22,4 +22,4 @@ Voici les détails des solutions de révision actuellement implémentées dans l
 
 ## 💻 Instructions d'Exécution
 
-Les solutions sont optimisées pour traiter des flux de données continus via l'entrée standard (`stdin`) jusqu'à la fin du fichier (`EOF`). Vous pouvez effectuer des tests locaux par redirection de fichiers :
+Les solutions sont optimisées pour traiter des flux de données continus via l'entrée standard (`stdin`) jusqu'à la fin du fichier (`EOF`).
