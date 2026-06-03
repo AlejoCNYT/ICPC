@@ -22,4 +22,4 @@ A continuación se detallan las soluciones de repaso implementadas actualmente e
 
 ## 💻 Instrucciones de Uso y Ejecución
 
-Las soluciones están optimizadas para procesar flujos de datos continuos a través de la entrada estándar (`stdin`) hasta alcanzar el fin del archivo (`EOF`). Puedes realizar pruebas locales utilizando redirección de archivos:
+Las soluciones están optimizadas para procesar flujos de datos continuos a través de la entrada estándar (`stdin`) hasta alcanzar el fin del archivo (`EOF`). 
