@@ -25,4 +25,4 @@ This repository is dedicated to the preparation, practice, and review of competi
 * **Computational Geometry:** Analytical handling of Cartesian coordinates and region overlapping.[cite: 4]
 
 ### 💻 Execution Instructions
-Solutions are optimized to handle continuous data streams via standard input (`stdin`) until `EOF`. You can run local tests using file redirection:[cite: 4]
+Solutions are optimized to handle continuous data streams via standard input (`stdin`) until `EOF`. 
