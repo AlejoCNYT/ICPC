@@ -23,8 +23,3 @@ This repository is dedicated to the preparation, practice, and review of competi
 * **Optimization & Dynamic Programming:** Utilizing cache (`memo`) structures to prevent redundant calculations of overlapping subproblems.[cite: 4]
 * **Number Theory:** Exploiting prime properties and optimizing time complexity within factorization loops.[cite: 4]
 * **Computational Geometry:** Analytical handling of Cartesian coordinates and region overlapping.[cite: 4]
-
-### 💻 Execution Instructions
-Solutions are optimized to handle continuous data streams via standard input (`stdin`) until `EOF`. You can run local tests using file redirection:[cite: 4]
-```bash
-python uva100_the_3n_plus_1_problem.py < input.txt
