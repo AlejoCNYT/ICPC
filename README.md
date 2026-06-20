@@ -18,11 +18,14 @@ This repository is dedicated to the preparation, practice, and review of competi
 | `uva100_the_3n_plus_1_problem.py` | **UVA 100** | Collatz sequence optimized via **Memoization** and dynamic path back-propagation. | Python |[cite: 4]
 | `230B-TPrimes` | **Codeforces 230B** | Number theory, **Sieve of Eratosthenes**, and efficient verification of prime perfect squares. | Python |[cite: 4]
 | `223_Rectangle Area` | **LeetCode / UVA 223** | Algorithmic geometry and 2D area intersection computing. | Python |[cite: 4]
+| `725-Division` | **UVA 725** | Complete Search (Brute Force), digit manipulation, sets, search space reduction, and output formatting. | Python |[cite: 4]
 
 ### 🧠 Concepts Reviewed
 * **Optimization & Dynamic Programming:** Utilizing cache (`memo`) structures to prevent redundant calculations of overlapping subproblems.[cite: 4]
 * **Number Theory:** Exploiting prime properties and optimizing time complexity within factorization loops.[cite: 4]
 * **Computational Geometry:** Analytical handling of Cartesian coordinates and region overlapping.[cite: 4]
+* **Complete Search (Brute Force):** Exhaustive enumeration with mathematical pruning to reduce the search space efficiently.[cite: 4]
+* **Digit Manipulation:** Verification of digit uniqueness and complete digit coverage using set-based validation.[cite: 4]
 
 ### 💻 Execution Instructions
 Solutions are optimized to handle continuous data streams via standard input (`stdin`) until `EOF`. 
