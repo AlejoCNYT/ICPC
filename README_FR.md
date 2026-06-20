@@ -13,12 +13,15 @@ Voici les détails des solutions de révision actuellement implémentées dans l
 | `uva100_the_3n_plus_1_problem.py` | **UVA 100** | Suite de Collatz optimisée par **Mémorisation** (Memoization) et rétropropagation dynamique. | Python |
 | `230B-TPrimes` | **Codeforces 230B** | Théorie des nombres, **Crible d'Ératosthène** et vérification efficace des carrés parfaits de nombres premiers. | Python |
 | `223_Rectangle Area` | **LeetCode / UVA 223** | Géométrie algorithmique et calcul d'intersection d'aires bidimensionnelles. | Python |
+| `725-Division` | **UVA 725** | Recherche exhaustive (Brute Force), manipulation de chiffres, ensembles (`set`), réduction de l’espace de recherche et formatage de sortie. | Python |
 
 ## 🧠 Concepts Révisés
 
 * **Optimisation & Programmation Dynamique:** Utilisation de structures de cache (`memo`) pour éviter le recalcul de sous-problèmes chevauchants.
 * **Théorie des Nombres:** Exploitation des propriétés des nombres premiers et optimisation de la complexité temporelle dans les boucles de factorisation.
 * **Géométrie Computationnelle:** Gestion analytique des coordonnées cartésiennes et de la superposition de régions.
+* **Recherche Exhaustive (Brute Force) :** Énumération complète optimisée grâce à un élagage mathématique réduisant efficacement l’espace de recherche.
+* **Manipulation des Chiffres :** Vérification de l’unicité et de la couverture complète des chiffres à l’aide d’ensembles (`set`).
 
 ## 💻 Instructions d'Exécution
 
