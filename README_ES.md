@@ -13,12 +13,15 @@ A continuación se detallan las soluciones de repaso implementadas actualmente e
 | `uva100_the_3n_plus_1_problem.py` | **UVA 100** | Sucesión de Collatz con optimización mediante **Memoización** y propagación inversa en camino dinámico. | Python |
 | `230B-TPrimes` | **Codeforces 230B** | Teoría de números, **Criba de Eratóstenes** y verificación eficiente de cuadrados perfectos de primos. | Python |
 | `223_Rectangle Area` | **LeetCode / UVA 223** | Geometría algorítmica y cálculo de intersección de áreas bidimensionales. | Python |
+| `725-Division` | **UVA 725** | Búsqueda completa (Fuerza Bruta), manipulación de dígitos, conjuntos (`set`), reducción del espacio de búsqueda y formateo de salida. | Python |
 
 ## 🧠 Conceptos y Algoritmos Repasados
 
 * **Optimización y Programación Dinámica:** Uso de caché (`memo`) para evitar el recálculo de subproblemas superpuestos.
 * **Teoría de Números:** Identificación de propiedades primas y optimización de complejidad temporal en bucles de factorización.
 * **Geometría Computacional:** Manejo analítico de coordenadas cartesianas y solapamiento de regiones.
+* **Búsqueda Completa (Fuerza Bruta):** Enumeración exhaustiva optimizada mediante poda matemática para reducir el número de candidatos evaluados.
+* **Manipulación de Dígitos:** Verificación de unicidad y cobertura completa de los dígitos utilizando estructuras de tipo `set`.
 
 ## 💻 Instrucciones de Uso y Ejecución
 
