@@ -1,0 +1,62 @@
+def usa_todos_los_digitos(a, b):
+    """
+    Check if a and b together use each digit from 0 to 9 exactly once.
+    """
+
+    a_str = f"{a:05d}"
+    b_str = f"{b:05d}"
+
+    return len(set(a_str + b_str)) == 10
+
+
+def encontrar_soluciones(n):
+    """
+    Find all valid numerator/denominator pairs such that:
+        numerator / denominator = n
+    and all digits 0-9 are used exactly once.
+    """
+
+    soluciones = []
+
+    limite = 99999 // n
+
+    for denominador in range(1, limite + 1):
+        numerador = n * denominador
+
+        if usa_todos_los_digitos(numerador, denominador):
+            soluciones.append((numerador, denominador))
+
+    return soluciones
+
+
+def imprimir_soluciones(n):
+    """
+    Print all solutions for a given N.
+    """
+
+    soluciones = encontrar_soluciones(n)
+
+    if not soluciones:
+        print(f"There are no solutions for {n}.")
+        return
+
+    for numerador, denominador in soluciones:
+        print(f"{numerador:05d} / {denominador:05d} = {n}")
+
+
+# Main program
+
+primer_caso = True
+
+while True:
+    n = int(input())
+
+    if n == 0:
+        break
+
+    if not primer_caso:
+        print()
+
+    primer_caso = False
+
+    imprimir_soluciones(n)
