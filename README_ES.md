@@ -14,6 +14,7 @@ A continuación se detallan las soluciones de repaso implementadas actualmente e
 | `230B-TPrimes` | **Codeforces 230B** | Teoría de números, **Criba de Eratóstenes** y verificación eficiente de cuadrados perfectos de primos. | Python |
 | `223_Rectangle Area` | **LeetCode / UVA 223** | Geometría algorítmica y cálculo de intersección de áreas bidimensionales. | Python |
 | `725-Division` | **UVA 725** | Búsqueda completa (Fuerza Bruta), manipulación de dígitos, conjuntos (`set`), reducción del espacio de búsqueda y formateo de salida. | Python |
+| `binary_search_neighbors.py` | **Binary Search** | Variantes de Búsqueda Binaria para hallar las cotas inferior y superior más cercanas en un arreglo ordenado y sin duplicados. | Python |
 
 ## 🧠 Conceptos y Algoritmos Repasados
 
@@ -22,6 +23,7 @@ A continuación se detallan las soluciones de repaso implementadas actualmente e
 * **Geometría Computacional:** Manejo analítico de coordenadas cartesianas y solapamiento de regiones.
 * **Búsqueda Completa (Fuerza Bruta):** Enumeración exhaustiva optimizada mediante poda matemática para reducir el número de candidatos evaluados.
 * **Manipulación de Dígitos:** Verificación de unicidad y cobertura completa de los dígitos utilizando estructuras de tipo `set`.
+* **Variantes de Búsqueda Binaria:** Búsqueda eficiente en `O(log n)` del mayor elemento menor que `x` y del menor elemento mayor que `x` en un arreglo ordenado.
 
 ## 💻 Instrucciones de Uso y Ejecución
 
