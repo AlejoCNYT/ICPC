@@ -19,6 +19,7 @@ This repository is dedicated to the preparation, practice, and review of competi
 | `230B-TPrimes` | **Codeforces 230B** | Number theory, **Sieve of Eratosthenes**, and efficient verification of prime perfect squares. | Python |[cite: 4]
 | `223_Rectangle Area` | **LeetCode / UVA 223** | Algorithmic geometry and 2D area intersection computing. | Python |[cite: 4]
 | `725-Division` | **UVA 725** | Complete Search (Brute Force), digit manipulation, sets, search space reduction, and output formatting. | Python |[cite: 4]
+| `binary_search_neighbors.py` | **Binary Search** | Binary Search variants to find the nearest lower and upper bounds in a sorted, de-duplicated array. | Python |
 
 ### 🧠 Concepts Reviewed
 * **Optimization & Dynamic Programming:** Utilizing cache (`memo`) structures to prevent redundant calculations of overlapping subproblems.[cite: 4]
@@ -26,6 +27,7 @@ This repository is dedicated to the preparation, practice, and review of competi
 * **Computational Geometry:** Analytical handling of Cartesian coordinates and region overlapping.[cite: 4]
 * **Complete Search (Brute Force):** Exhaustive enumeration with mathematical pruning to reduce the search space efficiently.[cite: 4]
 * **Digit Manipulation:** Verification of digit uniqueness and complete digit coverage using set-based validation.[cite: 4]
+* **Binary Search Variants:** Efficient `O(log n)` search for the greatest element smaller than `x` and the smallest element greater than `x` in a sorted array.
 
 ### 💻 Execution Instructions
 Solutions are optimized to handle continuous data streams via standard input (`stdin`) until `EOF`. 
