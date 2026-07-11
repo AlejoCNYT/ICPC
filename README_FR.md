@@ -14,6 +14,7 @@ Voici les détails des solutions de révision actuellement implémentées dans l
 | `230B-TPrimes` | **Codeforces 230B** | Théorie des nombres, **Crible d'Ératosthène** et vérification efficace des carrés parfaits de nombres premiers. | Python |
 | `223_Rectangle Area` | **LeetCode / UVA 223** | Géométrie algorithmique et calcul d'intersection d'aires bidimensionnelles. | Python |
 | `725-Division` | **UVA 725** | Recherche exhaustive (Brute Force), manipulation de chiffres, ensembles (`set`), réduction de l’espace de recherche et formatage de sortie. | Python |
+| `binary_search_neighbors.py` | **Binary Search** | Variantes de recherche binaire pour trouver les bornes inférieure et supérieure les plus proches dans un tableau trié et sans doublons. | Python |
 
 ## 🧠 Concepts Révisés
 
@@ -22,6 +23,7 @@ Voici les détails des solutions de révision actuellement implémentées dans l
 * **Géométrie Computationnelle:** Gestion analytique des coordonnées cartésiennes et de la superposition de régions.
 * **Recherche Exhaustive (Brute Force) :** Énumération complète optimisée grâce à un élagage mathématique réduisant efficacement l’espace de recherche.
 * **Manipulation des Chiffres :** Vérification de l’unicité et de la couverture complète des chiffres à l’aide d’ensembles (`set`).
+* **Variantes de la recherche binaire :** Recherche efficace en `O(log n)` du plus grand élément inférieur à `x` et du plus petit élément supérieur à `x` dans un tableau trié.
 
 ## 💻 Instructions d'Exécution
 
